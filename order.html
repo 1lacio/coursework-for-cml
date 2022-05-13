@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Оформление заказа</title>
+	<meta content="...">
+	<meta charset="utf-8">
+	<!-- <style type="text/css">
+		.top-1 {
+			background: gray;
+			border-radius: 4px;
+		}
+
+		.divmain {
+			max-width: 500px;
+			margin: auto;
+			background: rgb(218, 216, 216);
+			border: 4px solid #8b8b8b;
+			border-radius: 3px;
+		}
+
+		td {
+			padding: 10px;
+			padding-left: 40px;
+			font-size: 20px;
+		}
+	</style> -->
+	<link href="order.css" rel="stylesheet">
+</head>
+
+<body>
+	<div align="center" class="divmain">
+		<form>
+			<table>
+				<tr>
+					<td colspan="2" class="top-1" align="center">
+						<h3>Оформить заказ</h3>
+					</td>
+				</tr>
+				<tr>
+					<td>Товар</td>
+					<td><select>
+							<option>Nvidia GeForce RTX 3080</option>
+							<option>AMD Radeon RX 5700 XT</option>
+							<option>Nvidia GeForce GTX 1660 TI</option>
+						</select>
+				<tr>
+					<td>ФИО</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Телефон</td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" /></td>
+				</tr>
+				<tr>
+					<td>Адрес </td>
+					<td> <input type="text" /></td>
+				</tr>
+				<tr>
+					<td>Способ получения</td>
+					<td><input type="radio" name="способ получения "> курьер</br>
+						<input type="radio" name="способ получения "> почта
+						<br>
+						<input type="radio" name="способ получения "> пункт выдачи товаров
+					</td>
+				</tr>
+				<tr>
+					<td>Способ оплаты</td>
+					<td><input type="radio" name="способ оплаты "> наличные</br>
+						<input type="radio" name="способ оплаты "> безналичный расчёт
+						<br>
+						<input type="radio" name="способ оплаты "> наложенный платёж
+					</td>
+				</tr>
+				<tr>
+					<td>Желаемый день</br> доставки</td>
+					<td><select>
+							<option>Понедельник</option>
+							<option>Вторник</option>
+							<option>Среда</option>
+							<option>Четверг</option>
+							<option>Пятница</option>
+							<option>Суббота</option>
+							<option>Воскресенье</option>
+						</select>
+				<tr>
+					<td>Дополнительные <br>пожелания
+					<td><input type="text" />
+				<tr>
+					<td></td>
+					<td><input type="submit">
+				</tr>
+				<td>
+			</table>
+		</form>
+	</div>
+</body>
+
+</html>
