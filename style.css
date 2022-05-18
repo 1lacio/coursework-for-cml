@@ -478,7 +478,9 @@ a {
         padding-left: 247px;
     }
     
-    
+    .contacts span {
+        font-size: 16px;
+    }
 
     .grid3{
         display:grid;
